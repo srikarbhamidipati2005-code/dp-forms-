@@ -2,7 +2,7 @@
 using namespace std;
 int n;
 const int MAX_N = 10010;
-int arr[n];
+int arr[10010];
 int dp[MAX_N];
 
 int rec(int level) {
@@ -52,5 +52,5 @@ int main() {
         solve();
     }
     
-    return 0;
+
 }
